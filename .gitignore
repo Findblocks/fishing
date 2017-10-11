@@ -1,0 +1,26 @@
+src/*.exe
+src/fishing
+src/fishingd
+src/test_fishing
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.fishing
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+fishing-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
